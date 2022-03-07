@@ -1,1 +1,84 @@
-/* Denna fil skall innehålla din CSS kod */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: blanchedalmond;
+    font-family: sans-serif;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    right: 0px;
+    height: 90vh;
+    top: -90vh;
+    background-color: blanchedalmond;
+    align-items: center;
+    width: 20%;
+}
+
+.navLinks li {
+    list-style: none;
+}
+
+.navLinks a {
+    color: black;
+    text-decoration: double;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 10%;
+}
+
+.line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.line2 {
+    opacity: 0;
+}
+
+.line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+#wrapper {
+    display: block;
+    border: solid 1px black;
+    width: 90vw;
+    height: 100v;
+    margin: auto;
+}
+
+header {
+    background-color: beige;
+}
+
+main {
+    background-color: bisque;
+    color: black;
+}
+
+aside {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: cornsilk;
+}
