@@ -1,4 +1,4 @@
-const nav = document.querySelector('navLinks')
+const nav = document.querySelector('.navLinks')
 const burger = document.querySelector('.burger')
 
 function toggleMeny () {

@@ -6,13 +6,17 @@
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 15vh;
     background-color: blanchedalmond;
     font-family: sans-serif;
 }
-
+#placeholder {
+    width: 3em;
+    height: 1em;
+    background-color: blanchedalmond;;
+}
 .navLinks {
     display: flex;
     flex-direction: column;
@@ -24,15 +28,19 @@ nav {
     background-color: blanchedalmond;
     align-items: center;
     width: 20%;
+    transition: all 1s;
 }
 
 .navLinks li {
     list-style: none;
 }
 
+#logotyp {
+    width: 10em;
+}
 .navLinks a {
     color: black;
-    text-decoration: double;
+    text-decoration: none;
     letter-spacing: 3px;
     font-weight: lighter;
     font-size: 15px;
@@ -44,6 +52,7 @@ nav {
     background-color: black;
     margin: 5px;
     border-radius: 10%;
+    transition: all 1s;
 }
 
 .toggle .line1 {
@@ -57,11 +66,19 @@ nav {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+.navActive{
+    transform: translateY(100vh);
+}
+
+.burger {
+    margin-right: 50px;
+    cursor: pointer;
+}
 
 #wrapper {
     display: block;
     border: solid 1px black;
-    width: 90vw;
+    width: 100%;
     height: 100v;
     margin: auto;
 }
