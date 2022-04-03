@@ -7,3 +7,4 @@ function toggleMeny () {
 }
 
 burger.addEventListener ('click', toggleMeny)
+

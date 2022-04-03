@@ -76,26 +76,109 @@ nav {
 }
 
 #wrapper {
-    display: block;
+    display: grid;
     border: solid 1px black;
     width: 100%;
-    height: 100v;
+    height: 55vw;
     margin: auto;
 }
 
 header {
     background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+    border: solid 1px black;
+    height: 400px;
+    width: 90%;
 }
 
-main {
-    background-color: bisque;
-    color: black;
+#main {
+    display: flex;
+    justify-content: center;
 }
 
-aside {
-    background-color: burlywood;
+#buybag {
+    width: 10em;
+    margin: 100px;
+    cursor: pointer;
 }
 
-footer {
-    background-color: cornsilk;
+#sellbag {
+    width: 12em;
+    margin: 100px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+#main2 {
+    margin: 4em;  
+    padding: 50vh;
+}
+
+#textboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InfoInBox {
+    background-color: blanchedalmond;
+    width: 45vw;
+    height: 50vh;
+    margin-right: 2em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text, .title {
+    font-family: sans-serif;
+}
+
+.text {
+    line-height: 30px;
+}
+
+.outsidebox {
+    width: 45vw;
+    height: 50vh;
+    margin-right: 2em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#fordelar {
+    line-height: 2em;
+    margin-top: 0px;
+}
+
+#endLine {
+    height: 0px;
+    width: 70vw;
+    margin-top: 7em;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+}
+
+#endLineBox {
+    display: flex;
+    justify-content: center;
 }
